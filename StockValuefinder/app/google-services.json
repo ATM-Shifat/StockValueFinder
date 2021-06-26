@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68516083938",
+    "project_id": "stock-value-finder",
+    "storage_bucket": "stock-value-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68516083938:android:725394baaca7d6bde386bb",
+        "android_client_info": {
+          "package_name": "android.example.stockvaluefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68516083938-3s3o69d06rqt2t9gg1cktdgrpfja53ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkgFVKjCqiPb7AHCxM8wxMLOTwnPmzumQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68516083938-3s3o69d06rqt2t9gg1cktdgrpfja53ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

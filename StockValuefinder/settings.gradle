@@ -1,0 +1,2 @@
+rootProject.name = "Stock Value finder"
+include ':app'

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selling_Page">
+    <TextView
+
+        android:id="@+id/availquanttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVAILABLE STOCK : "
+        android:layout_toLeftOf="@id/availqaunt"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:id="@+id/availqaunt"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:id="@+id/comtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ptext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/comname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comtext1"
+            android:text="name of company"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shareprice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ptext1"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/comname1"
+            android:text="3000.33"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/qantitytext1"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_below="@+id/comname1"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="69dp"
+            android:gravity="center"
+            android:text="QUANTITY :  "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sellquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareprice1"
+            android:layout_marginTop="70dp"
+            android:layout_toEndOf="@id/qantitytext1"
+            android:layout_toRightOf="@id/qantitytext1"
+            android:hint="Enter Quantity"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/buttonsell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qantitytext1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="SELL"
+            android:onClick="selling"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

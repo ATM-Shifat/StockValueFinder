@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.stockvaluefinder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockValueFinder">
+        <activity android:name=".favourites"></activity>
+        <activity android:name=".temp" />
+        <activity android:name=".Selling_Page" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".buying_page" />
+        <activity android:name=".userinfo" />
+        <activity android:name=".homepage" />
+        <activity android:name=".Register_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

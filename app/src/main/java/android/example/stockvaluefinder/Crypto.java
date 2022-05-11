@@ -15,10 +15,10 @@ public class Crypto {
         return value;
     }
 
-    public void setName(String newName) {
-        this.name = newName;
+    public void setName(String oneName) {
+        this.name = oneName;
     }
-    public void setValue(double newValue) {
-        this.value = newValue;
+    public void setValue(double oneValue) {
+        this.value = oneValue;
     }
 }

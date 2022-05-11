@@ -15,6 +15,7 @@ public class Crypto {
         return value;
     }
 
+
     public void setName(String cryptoName) {
         this.name = cryptoName;
     }
